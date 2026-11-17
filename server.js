@@ -223,9 +223,4 @@ server.listen(PORT, "0.0.0.0", () => {
   console.log("\n  Phones must be on the same Wi-Fi as this computer.\n");
 });
 
-setTimeout(() => {
-  console.log("\n  Time is up. Final results:");
-  Object.entries(picks).forEach(([c, n]) => console.log(`   ${c.padEnd(10)} ${n}`));
-  console.log("  Server stopped.\n");
-  server.close(); setTimeout(() => process.exit(0), 3000);
-}, MINUTES * 60 * 1000);
+
