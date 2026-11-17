@@ -1,0 +1,12 @@
+{
+  "name": "color-picker",
+  "version": "1.0.0",
+  "description": "Shared Color Picker Application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
